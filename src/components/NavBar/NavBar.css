@@ -1,0 +1,15 @@
+.logo{
+    width: 300px;
+    height: 150px;
+}
+.navBar{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#nav{
+    background-color: grey;
+}
+#nav-dropdown{
+    color: black;
+}

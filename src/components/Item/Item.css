@@ -1,0 +1,21 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 10px;
+    margin-top: 15px;
+    background-color: rgba(128, 128, 128, 0.534);
+
+
+}
+
+
+.cardHeader{
+    background-color: rgba(168, 143, 143, 0.863);
+    
+    padding-top: 8;
+    font-weight: bold;
+    font-size: 20px;
+    
+}

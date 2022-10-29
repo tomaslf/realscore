@@ -19,7 +19,7 @@ const Item = ({name,img,match,competition} ) => {
         <Card className="text-center">
           <Card.Header className='cardHeader'>{competition} </Card.Header>  
             <Card.Body>
-              <Card.Text>{name}</Card.Text>          
+              <Card.Text className='card-text'>{name}</Card.Text>          
               <Card.Img src={img} alt={name} />            
             </Card.Body>
               <Button onClick={handleShow} className='m-2' size='sm' variant="outline-success">See Hightlights
